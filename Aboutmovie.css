@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    /* background-color: whitesmoke; */
+    align-items: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.676);
+    justify-content: space-around;
+
+    background-color: white;
+
+}
+
+.nav1 {
+    padding-left: 20px;
+}
+
+input[type=text] {
+    width: 600px;
+    height: 40px;
+    text-align: center;
+    border-radius: 28px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    color: rgb(251, 177, 39);
+    font-size: large;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+input[type=text]::placeholder {
+    color: rgb(251, 177, 39);
+}
+
+input[type=text]:focus {
+    background-color: whitesmoke;
+    border: none;
+}
+
+.nav-section {
+    display: flex;
+    width: 380px;
+    height: 35px;
+}
+
+.nav-section ul {
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-section li a {
+    padding: 7px 15px;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(251, 177, 39);
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-but {
+    margin: 0;
+    display: flex;
+    height: 90px;
+
+}
+
+.nav-but ul {
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-but li {
+    padding: 3px 8px;
+    align-items: center;
+}
+
+.nav-but li button {
+    padding: 7px 15px;
+    width: 140px;
+}
+
+.nav-but li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif;
+}
+
+.nav-but ul button {
+    justify-content: space-between;
+    padding: 4px 8px;
+    width: 153px;
+    background-color: rgb(251, 177, 39);
+    border: none;
+    transition: 0.5s;
+    font-weight: 200;
+}
+
+.nav-but ul a {
+    color: black;
+    font-weight: 200;
+}
+
+.nav-but button:hover {
+    transform: scale(1.1);
+    bottom: 1px;
+    box-shadow: 3px 3px 10px rgb(251, 177, 39);
+    transition: 0.25s;
+    font-weight: 200;
+}
+.index{
+    display: flex;
+    width: 100%;
+    height: 680px;
+    padding-top: 45px;
+    /* align-items: center; */
+    padding-left: 70px;
+    background-color: whitesmoke;
+}
+.index-1{
+    display: flex;
+    /* padding-bottom: 40px; */
+    padding-left: 33px;
+    font-family: 'Gill Sans',
+    'Gill Sans MT',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
+}
+.index-img{
+    display: flex;
+    width: 1300px;
+    height: 350px;
+    padding-top: 20px;
+}
+.iframe-trailer{
+    padding-left: 20px;
+}
+.cast{
+    padding-left: 180px;
+}
+.cast li{
+    padding-top: 13px;
+    list-style-type: none;
+}
+.cast h3{
+    color: rgb(251, 177, 39);
+    font-family: 'Gill Sans',
+    'Gill Sans MT',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
+}
+.cast ul{
+    padding-left: 2px;
+}
+.photos{
+   display: flex;
+    width: 100%;
+    height: 410px;
+    /* border: 1px solid black;  */
+    font-family: 'Gill Sans',
+    'Gill Sans MT',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
+}
+.photo-1 h1{
+    /* padding-top: 10px; */
+    color: rgb(251, 177, 39);
+}
+.photo-1 img:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 10px rgb(251, 177, 39);
+}
+textarea{
+    width: 500px;
+    height: 200px;
+    font-size: 16px;
+}
+.review{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 310px;
+    background-color: whitesmoke;
+}
+.review h1{
+    color: rgb(251, 177, 39);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.your-review{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.your-review button{
+   
+    width: 150px;
+    height: 40px;
+    background-color: rgb(251, 177, 39);
+    border: none;
+    transition: 0.5s;
+    font-weight: 200;
+    cursor: pointer;
+}
+.review-btn{
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.review-btn button:hover{
+    font-weight: 600;
+    border: none;
+    transition: 0.25s;
+    box-shadow: 3px 3px 10px 5px rgb(251, 177, 39);
+}
+.footer {
+    background-color: black;
+}
+
+.footer-logo {
+    padding-top: 89px;
+    padding-left: 170px;
+}
+
+.footer-section {
+    padding-left: 350px;
+    width: 1500px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section ul {
+
+    list-style-type: none;
+    list-style-type: none;
+    align-items: center;
+
+    color: rgb(168, 166, 166);
+}
+
+.footer-section ul li {
+    padding-top: 15px;
+    display: flex;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+}
+
+.footer-section ul li a:hover {
+    color: rgb(251, 177, 39);
+}
+
+.footer-section li {
+    padding: 5px 15px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.footer-section ul {
+    color: rgb(181, 181, 181);
+}
+
+.footer-section ul i:hover {
+    color: rgb(251, 177, 39);
+}
+
+.last-content {
+    display: flex;
+    padding-top: 300px;
+    padding-left: 178px;
+    width: 1000px;
+    height: 10px;
+}
+
+.last-content ul a {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    font-size: 13px;
+}
+
+.last-content ul a:hover {
+    color: rgb(251, 177, 39);
+}
+
+.footer-right {
+    color: rgb(156, 156, 156);
+    padding-top: 10px;
+    padding-left: 1250px;
+}
+
+.footer-right li {
+    list-style-type: none;
+}
+
+.footer-right ul i:hover {
+    color: rgb(30, 215, 96);
+}
+
+.footer-right ul a {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+
+.footer-right ul a:hover {
+    color: rgb(251, 177, 39);
+}
